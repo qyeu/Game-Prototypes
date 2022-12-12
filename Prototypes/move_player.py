@@ -21,7 +21,6 @@ class Game:
         self.main_loop()
 
     def move_player(self, dt):
-        # to stop diagonal movement put these into seperate functions ig
         moving_to = (400, 240) #x, y
         if moving_to == self.pos:
             return
